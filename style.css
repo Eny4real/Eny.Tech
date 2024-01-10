@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background: whitesmoke;
+    
+}
+.navLinks{
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+.unlockGrandCon{
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(225, 222, 222);
+}
+
+.unlock h1{
+    font-size: 80px;
+    color: rgb(18, 18, 95);
+    margin: 20px;
+}
+.unlock p{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btnGrandCon{
+    display: flex;
+    gap: 10px;
+}
+.btnCon button{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+}
+.unlockBtn button{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: red;
+    margin: 20px;
+    color: white;
+}
+.dialCon{
+    display: flex;
+    flex-wrap: wrap; /*@mediascreen*/
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    background: whitesmoke;
+    gap: 30px;
+    position: relative;
+    right: -650px;
+    top: -30px;
+}
+
+.hourly2{
+    background: rgb(2, 2, 47);
+    color: white;
+    padding: 10px 30px;
+    
+}
+.whiteGrandCon{
+    margin: 0px 60px;
+    background: whitesmoke;
+    position: relative;
+    top: -80px;
+}
+.whiteCon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.div2{
+    border-right: 1px solid rgb(6, 6, 55);
+    padding: 0px 20px;
+}
+.div3{
+    border-right: 1px solid rgb(6, 6, 55);
+    padding: 0px 20px;
+}
+.btn button{
+    border: none;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    background: red;
+    border-radius: 5px;
+    color: white;
+}
+.servicesCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicesGrandCon{
+    margin: 20px;
+}
+.grandCardCon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+}
+.cardCon{
+    width: 300px;
+    overflow: hidden;
+}
+.cardBody h4{
+    margin-top: 20px;
+}
+.btn11 button{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+}
+.btn12 button{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-top: 1px solid rgb(18, 18, 95); 
+}
+.btn13 button{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-top: 1px solid rgb(18, 18, 95); 
+}
+.image1{
+    position: relative;
+    right: -20px;
+}
+.image{
+    position: relative;
+    top: -110px;
+}
+
+.manAdvertCon{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.committment{
+    position: relative;
+    top: -70px;
+}
+.committment h6{
+    margin: 20px;
+    color: red;
+}
+.committment h2{
+    font-size: 50px;
+    margin: 20px;
+ 
+}
+.committment p{
+    
+    margin: 30px;
+   
+}
+.committment h3{
+    margin: 30px; 
+
+}
+
+.logoGrandCon{
+    background: whitesmoke; /*rgb(225, 222, 222)*/
+    position: relative;
+    top: -70px;
+}
+.logoCon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.carGrandCon{
+    margin: 50px;
+   
+}
+.carCon1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 20px;
+    
+}
+.car1{
+    position: relative;
+    right: -410px;
+   
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.btnIcon button{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+
+}
+.card1{
+    outline: none;
+    border: none;
+    margin: 20px;
+}
+.cardCon1{
+    width: 300px;
+    overflow: hidden;
+    border: none;
+    background: whitesmoke; /*rgb(225, 222, 222)*/
+}
+body{
+    background: rgb(225, 222, 222);
+}
+.cardBodyy{
+    margin-left: 20px;
+}
+.cardBodyy h4{
+    margin-top: 20px;
+}
+.btnIcon1 button{
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 1px solid;
+   
+}
+.btnIcon11 button{
+    border: none;
+    margin: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+}
+.phoneGrandCon{
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(225, 222, 222);
+}
+.phonetext h6{
+    margin: 10px;
+    
+}
+.phonetext h1{
+    margin: 10px;
+    font-size: 40px;
+
+}
+.phonetext p{
+    margin: 20px;
+}
+.appStorLogo{
+   margin-left: 20px;
+}
+.btnn{
+    display: flex;
+    gap: 20x;
+    position: relative;
+    bottom: -35px;
+}
+.btnnCon1 button{
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+
+}
+.btnnCon2 button{
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: red;
+    position: relative;
+    right: -10px;
+
+}
+
+.testimonialCon{
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(225, 222, 222);
+   
+}
+
+
+.cirleCon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    bottom: -50px;
+    
+}
+.circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+    overflow: hidden;
+}
+.rentoGrandCon{
+    background: rgb(15, 15, 70);
+    color: whitesmoke;
+}
+.rentoCon1{
+    min-height: 50vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+.rento1 h4{
+    position: relative;
+    top: -55px;
+}
+.quickLinks{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+    color: whitesmoke;
+}
+
+.searchedCon{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+    color: whitesmoke;
+}
+.legalCon{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+    color: whitesmoke;
+    position: relative;
+    top: -20px;
+}
+/*.legalCon h4{
+    position: relative;
+    top: -20px;
+
+}*/
+.ContactCon{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+    color: whitesmoke;
+    position: relative;
+    top: -30px;
+}
+/*.ContactCon h4{
+    position: relative;
+    top: -30px;
+}*/
+
+.link{
+    color: whitesmoke;
+}
